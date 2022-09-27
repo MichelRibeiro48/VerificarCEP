@@ -9,21 +9,25 @@
   </head>
   <body>
     <main>
-      <form class="form">
+      <form class="form" onsubmit="getAddress(event)">
         <strong class="form__title">Verificar CEP</strong>
-        <input placeholder="Digite o CEP" class="form__input" />
+        <input placeholder="Digite o CEP" class="form__input" type="text" />
         <button class="form__submit" type="submit">Enviar</button>
       </form>
 
       <div class="card">
         <p>Cep:</p>
-        <p>Endereço:</p>
+        <p>Logradouro:</p>
         <p>Complemento:</p>
-        <p>Estado:</p>
-        <p>Cidade:</p>
         <p>Bairro:</p>
+        <p>Localidade:</p>
+        <p>UF:</p>
+        <p>IBGE:</p>
+        <p>GIA:</p>
         <p>DDD:</p>
+        <p>siafi:</p>
       </div>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
